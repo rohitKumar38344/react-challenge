@@ -1,0 +1,23 @@
+.counter-ctn {
+  width: 32rem;
+  height: 32rem;
+  padding: 2.4rem;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: rebeccapurple;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.btn-ctn {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  font-size: 2rem;
+  padding: 0.8rem 0.5rem;
+}

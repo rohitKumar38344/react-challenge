@@ -1,7 +1,11 @@
-import UserAuth from "./UserAuth";
+import UserAuth from "./UserAuth/UserAuth";
 
 function App() {
-  return <UserAuth />;
+  return (
+    <>
+      <UserAuth />
+    </>
+  );
 }
 
 export default App;
